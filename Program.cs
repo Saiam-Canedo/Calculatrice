@@ -37,7 +37,7 @@ namespace Calculatrice
                         dblRep = Outils.Addition(dblVal1,dblVal2);
                         break;
                     case "-":
-                        dblRep = dblVal1 - dblVal2;
+                        dblRep = Outils.Soustraction(dblVal1, dblVal2);
                         break;
                     case "*":
                         dblRep = dblVal1 * dblVal2;
