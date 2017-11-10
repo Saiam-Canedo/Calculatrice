@@ -56,7 +56,7 @@ namespace Calculatrice
                 }
             }
 
-            Console.WriteLine(dblRep);
+            Console.WriteLine("La réponse : {0}",dblRep);
             Console.ReadKey();
         }
     }
